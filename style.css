@@ -1,0 +1,16 @@
+.wsite-background {
+	background-image: url(./images/bicorne.jpg) !important;
+	background-repeat: no-repeat !important;
+	background-position: 50.00% 59.63% !important;
+	background-size: 100% !important;
+	background-color: transparent !important;
+}
+
+body.wsite-background {
+	background-attachment: fixed !important;
+}
+
+.wsite-background.wsite-custom-background{
+	background-size: cover !important
+}
+
