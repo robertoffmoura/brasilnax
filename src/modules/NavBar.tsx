@@ -18,7 +18,7 @@ interface NavigationBarProps {
 const NavigationBar: React.FC<NavigationBarProps> = ({ pages }) => {
     const theme = useTheme();
     return (
-        <Box sx={{ width: "100%", backgroundColor: theme.palette.primary.light, right: 0, position: "fixed" }}>
+        <Box sx={{ width: "100%", backgroundColor: theme.palette.primary.light, right: 0, position: "fixed", zIndex: 1000 }}>
             <Box sx={{ maxWidth: "1100px", width: "100%", margin: "0 auto", boxSizing: "border-box" }}>
                 <AppBar elevation={0} position="static" sx={{ backgroundColor: "transparent" }}>
                     <Toolbar variant="dense">

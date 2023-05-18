@@ -2,6 +2,7 @@ import { AppProps } from "next/app";
 import { ThemeProvider, StyledEngineProvider } from "@mui/material/styles";
 import NavigationBar from "../modules/NavBar";
 import { defaultTheme } from "../styles/theme";
+import "../styles/global.css";
 
 const pages = [
     {

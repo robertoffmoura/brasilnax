@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Page 1",
+      "author": "Author 1",
+      "publicationDate": "2023-01-01",
+      "path": "/page1",
+      "htmlPath": "html/page1.html"
+    },
+    {
+      "title": "Page 2",
+      "author": "Author 2",
+      "publicationDate": "2023-01-02",
+      "path": "/page2",
+      "htmlPath": "html/page2.html"
+    }
+  ]
+  

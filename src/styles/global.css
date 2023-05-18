@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    min-height: 350px;
+    margin-bottom: 16px;
+}
+
+.bannerImage {
+    width: 100%;
+    min-height: 350px;
+    object-fit: cover;
+    opacity: 0.88;
+}
+
+.bannerContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-65%, -50%);
+    gap: 20px;
+    width: 100%;
+    min-height: 100px;
+}
+
+.pageImage {
+    min-height: 100px;
+    object-fit: contain;
+}
+
+.separator {
+    height: 80%;
+    min-height: 50px;
+    width: 1px;
+    background-color: white;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-family: "bebas_neueregular";
+}
+
+.content {
+    max-width: 800px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff; /* default MUI background color */
+}
