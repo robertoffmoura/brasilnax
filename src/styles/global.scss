@@ -16,29 +16,35 @@ body {
     margin-bottom: 16px;
 }
 
-.bannerImage {
-    width: 100%;
-    min-height: 350px;
-    object-fit: cover;
-    opacity: 0.88;
+.banner-wrapper {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
 }
 
-.bannerContent {
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 60%;
+}
+
+.banner-content {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 20%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    transform: translate(-65%, -50%);
+    justify-content: flex-start;
     gap: 20px;
-    width: 100%;
-    min-height: 100px;
+    width: 80%;
+    transform: translateY(-50%);
 }
 
-.pageImage {
-    min-height: 100px;
+.page-image {
+    height: 150px; // Adjust this according to your needs
+    width: 150px; // Adjust this according to your needs
     object-fit: contain;
 }
 
@@ -50,7 +56,7 @@ body {
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
@@ -61,5 +67,5 @@ body {
     max-width: 800px;
     padding: 16px;
     margin-bottom: 16px;
-    background-color: #fff; /* default MUI background color */
+    background-color: #fff;
 }

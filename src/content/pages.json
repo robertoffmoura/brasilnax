@@ -1,0 +1,62 @@
+[
+    {
+        "id": "home",
+        "name": "HOME",
+        "path": "/",
+        "type": "home"
+    },
+    {
+        "id": "como-chegar",
+        "name": "COMO CHEGAR",
+        "path": "/como-chegar",
+        "type": "post-menu",
+        "subPages": [
+            {
+                "id": "com-convenio",
+                "name": "Com convênio",
+                "path": "/com-convenio",
+                "type": "post-menu",
+                "subPages": [
+                    {
+                        "id": "poli-usp",
+                        "name": "Poli-USP",
+                        "path": "/poli-usp",
+                        "type": "post"
+                    }
+                ]
+            },
+            {
+                "id": "sem-convenio",
+                "name": "Sem convênio",
+                "path": "/sem-convenio",
+                "type": "post"
+            },
+            {
+                "id": "processo-de-selecao",
+                "name": "Processo de Seleção",
+                "path": "/processo-de-selecao",
+                "type": "post-menu",
+                "subPages": [
+                    {
+                        "id": "documentacao",
+                        "name": "Documentação",
+                        "path": "/documentacao",
+                        "type": "post"
+                    },
+                    {
+                        "id": "prova-escrita",
+                        "name": "A prova escrita",
+                        "path": "/prova-escrita",
+                        "type": "post"
+                    },
+                    {
+                        "id": "prova-oral",
+                        "name": "A prova oral",
+                        "path": "/prova-oral",
+                        "type": "post"
+                    }
+                ]
+            }
+        ]
+    }
+]

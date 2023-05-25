@@ -20,12 +20,18 @@ const defaultTheme = createTheme({
             main: "#ffffff",
         },
         text: {
-            primary: "#ffffff",
+            primary: "#666666",
         },
     },
     typography: {
         fontFamily: "'Lato', sans-serif",
         fontSize: 15,
+        h2: {
+            fontSize: 40,
+            fontFamily: "'Crimson Text', serif",
+            fontStyle: "italic",
+            fontWeight: "bold",
+        }
     },
 });
 
