@@ -7,7 +7,6 @@ import Post from "./sub-pages/Post";
 import PostList from "./sub-pages/PostList";
 import { MetaDataProps, PagesProps } from "../misc/types";
 import Banner from "../components/Banner";
-import Home from "./sub-pages/Home";
 
 interface StaticPropsContext {
     params: {
@@ -20,9 +19,6 @@ export default function Page({ pageData, htmlContent, pageType, pageMetadata }: 
 
     let ContentComponent;
     switch (pageType) {
-        case "home":
-            ContentComponent = Home;
-            break;
         case "post-menu":
             ContentComponent = PostMenu;
             break;
