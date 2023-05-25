@@ -82,6 +82,22 @@ body {
     font-size: 12px;
 }
 
+.side-panel {
+    width: 15%;
+}
+
+.post-main-content {
+    width: 70%;
+}
+
+.MuiLink-root {
+    color: orange;
+}
+
+.MuiListItem-root {
+    margin-bottom: 20px;
+}
+
 // Markdown CSS
 .markdown-content .MuiTypography-body1 {
     line-height: 2;
@@ -89,7 +105,7 @@ body {
 
 .markdown-content .MuiTypography-root {
     text-align: justify;
-    padding: 8px;
+    padding: 8px 0px;
 }
 
 .markdown-content .MuiDivider-root {

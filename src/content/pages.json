@@ -7,15 +7,15 @@
     },
     {
         "id": "como-chegar",
-        "name": "COMO CHEGAR",
+        "name": "O Concurso",
         "path": "/como-chegar",
-        "type": "post-menu",
+        "type": "post",
         "subPages": [
             {
                 "id": "com-convenio",
                 "name": "Com convênio",
                 "path": "/com-convenio",
-                "type": "post-menu",
+                "type": "post",
                 "subPages": [
                     {
                         "id": "poli-usp",
@@ -35,7 +35,7 @@
                 "id": "processo-de-selecao",
                 "name": "Processo de Seleção",
                 "path": "/processo-de-selecao",
-                "type": "post-menu",
+                "type": "post",
                 "subPages": [
                     {
                         "id": "documentacao",

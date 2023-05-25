@@ -31,6 +31,11 @@ const defaultTheme = createTheme({
             fontFamily: "'Crimson Text', serif",
             fontStyle: "italic",
             fontWeight: "bold",
+        },
+        h3: {
+            fontSize: 28,
+            fontFamily: "'Crimson Text', serif",
+            fontWeight: "bold",
         }
     },
 });

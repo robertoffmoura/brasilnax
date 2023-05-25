@@ -11,7 +11,6 @@ const components = {
         const children = props.children;
         // Verify if inside there is an Image
         const hasImage = React.Children.toArray(children).some((child) => {
-            console.log("child = ", child);
             return React.isValidElement(child) && child.props && child.props.node && child.props.node.tagName === "img";
         });
         // Verify if inside there is a Video

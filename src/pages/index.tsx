@@ -21,7 +21,7 @@ const Home = ({ markdown }: any) => {
 };
 
 export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), "src", "content", "home.md");
+    const filePath = path.join(process.cwd(), "src", "content/markdown/", "home.md");
     const markdown = fs.readFileSync(filePath, "utf8");
 
     return {

@@ -1,5 +1,6 @@
 import { AppProps } from "next/app";
 import { ThemeProvider, StyledEngineProvider } from "@mui/material/styles";
+import Box from "@mui/material/Box";
 import NavigationBar from "../modules/NavBar";
 import { defaultTheme } from "../styles/theme";
 import "../styles/global.scss";
@@ -13,6 +14,7 @@ const App = ({ Component, pageProps }: AppProps) => {
                 <div className="root">
                     <NavigationBar pages={pages} />
                     <AnyComponent {...pageProps} />
+                    <Box height="150px" />
                 </div>
             </StyledEngineProvider>
         </ThemeProvider>

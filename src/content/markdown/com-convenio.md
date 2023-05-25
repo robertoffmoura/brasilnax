@@ -1,0 +1,3 @@
+Muitas universidades brasileiras possuem acordos de duplo diploma com a École Polytechnique e, assim, elas realizam processos de pré-seleção para os alunos que querem prestar o concurso da X. Alguns mais complicados, outros bem mais simples, aqui você encontra informações e dicas de quem já passou por eles. 
+
+​Caso a sua escola não tenha acordo com a X, você pode aplicar diretamente no site da École Polytechnique, sem ter que passar por processo de pré-seleção. Nesse caso, você está aplicando para o diploma da École Polyetchnique e possivelmente não poderá voltar para o Brasil para obter o diploma da sua universidade atual. [Clique aqui](/como-chegar/sem-convenio) para saber mais

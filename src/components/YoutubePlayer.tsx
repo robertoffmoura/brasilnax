@@ -4,7 +4,6 @@ export const extractYouTubeVideoId = (url: string) => {
     const match = url.match(
         /(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([^&?/]+)/i
     );
-    console.log(match && match[1]);
     return match && match[1];
 };
 

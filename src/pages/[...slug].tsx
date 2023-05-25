@@ -1,10 +1,7 @@
 import path from "path";
 import fs from "fs";
-import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
-import PostMenu from "./sub-pages/PostMenu";
-import Post from "./sub-pages/Post";
-import PostList from "./sub-pages/PostList";
+import Post from "../modules/Post";
+import PostList from "../modules/PostList";
 import { MetaDataProps, PagesProps } from "../misc/types";
 import Banner from "../components/Banner";
 
@@ -14,14 +11,11 @@ interface StaticPropsContext {
     };
 }
 
-export default function Page({ pageData, htmlContent, pageType, pageMetadata }: any) {
+export default function Page({ pageData, markdown, pageType, pageMetadata }: any) {
     if (!pageData) return <div>No Page Found</div>;
 
     let ContentComponent;
     switch (pageType) {
-        case "post-menu":
-            ContentComponent = PostMenu;
-            break;
         case "post":
             ContentComponent = Post;
             break;
@@ -35,13 +29,8 @@ export default function Page({ pageData, htmlContent, pageType, pageMetadata }: 
 
     return (
         <>
-            <Banner title={pageData.title} />
-            <Box className="page">
-                <Container maxWidth="md">
-                    {ContentComponent && <ContentComponent metadata={pageMetadata} htmlContent={htmlContent} />}
-                    <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
-                </Container>
-            </Box>
+            <Banner title={pageData.name} />
+            {ContentComponent && <ContentComponent metadata={pageMetadata} markdown={markdown} />}
         </>
     );
 }
@@ -51,7 +40,7 @@ export async function getStaticProps({ params }: StaticPropsContext) {
     const pagesJson: PagesProps[] = require("../content/pages.json"); // Import pages.json
 
     let pageType: string | undefined;
-    let htmlContent = "";
+    let markdown = "";
     let pageMetadata: MetaDataProps | null = null;
 
     // Find the page type for the current path in pages.json
@@ -65,16 +54,20 @@ export async function getStaticProps({ params }: StaticPropsContext) {
         pageMetadata = metadataJson[pageInJson.id];
 
         if (pageMetadata) {
-            // Load HTML content
             const filePath = path.join(process.cwd(), "src/content", pageMetadata.path);
-            htmlContent = fs.readFileSync(filePath, "utf8");
+            markdown = fs.readFileSync(filePath, "utf8");
+
+            if (pageMetadata.subPosts && pageInJson.subPages) {
+                const subPages = pageInJson.subPages.map((subPage) => ({ path: subPage.path, name: subPage.name }));
+                pageMetadata.subPostList = subPages;
+            }
         }
     }
 
     return {
         props: {
             pageData: pageInJson || null,
-            htmlContent,
+            markdown,
             pageType,
             pageMetadata,
         },

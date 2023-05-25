@@ -1,11 +1,17 @@
 {
-    "home": { "id": "home", "path": "html/home.html" },
-    "como-chegar": { "id": "como-chegar", "path": "html/como-chegar.html" },
-    "com-convenio": { "id": "com-convenio", "path": "html/com-convenio.html" },
-    "poli-usp": { "id": "poli-usp", "path": "html/poli-usp.html" },
-    "sem-convenio": { "id": "sem-convenio", "path": "html/sem-convenio.html" },
-    "processo-de-selecao": { "id": "processo-de-selecao", "path": "html/processo-de-selecao.html" },
-    "documentacao": { "id": "documentacao", "path": "html/documentacao.html" },
-    "prova-escrita": { "id": "prova-escrita", "path": "html/prova-escrita.html" },
-    "prova-oral": { "id": "prova-oral", "path": "html/prova-oral.html" }
+    "home": { "id": "home", "path": "markdown/home.md" },
+    "como-chegar": { "id": "como-chegar", "path": "markdown/como-chegar.md", "subPosts": true },
+    "com-convenio": { "id": "com-convenio", "path": "markdown/com-convenio.md", "subPosts": true },
+    "poli-usp": { "id": "poli-usp", "path": "markdown/poli-usp.md" },
+    "sem-convenio": {
+        "id": "sem-convenio",
+        "path": "markdown/sem-convenio.md",
+        "title": "Minha universidade não tem convênio, e agora?",
+        "date": " 2/1/2018",
+        "authors": ["Ramon Sena - X2016", "Hugo Serrão - X2018"]
+    },
+    "processo-de-selecao": { "id": "processo-de-selecao", "path": "markdown/processo-de-selecao.md" },
+    "documentacao": { "id": "documentacao", "path": "markdown/documentacao.md" },
+    "prova-escrita": { "id": "prova-escrita", "path": "markdown/prova-escrita.md" },
+    "prova-oral": { "id": "prova-oral", "path": "markdown/prova-oral.md" }
 }
