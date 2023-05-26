@@ -91,7 +91,21 @@
                 "name": "Consultoria",
                 "path": "/consultoria",
                 "type": "post-list",
-                "showMenu": false
+                "showMenu": false,
+                "subPages": [
+                    {
+                        "id": "andre-coutinho",
+                        "name": "Consultoria",
+                        "path": "/andre-coutinho",
+                        "type": "post"
+                    },
+                    {
+                        "id": "julio-cho",
+                        "name": "Consultoria",
+                        "path": "/julio-cho",
+                        "type": "post"
+                    }  
+                ]
             },
             {
                 "id": "empreendorismo",

@@ -38,5 +38,23 @@
         "promotion": "X2010",
         "expertise": "Machine learning e inteligência artificial",
         "path": "markdown/daniel-silva.md"
+    },
+    "andre-coutinho": {
+        "id": "andre-coutinho",
+        "title": "Consultor de Ipanema",
+        "date": "02/02/2016",
+        "name": "André Coutinho",
+        "promotion": "X2007",
+        "expertise": "Consultoria Estratégica",
+        "path": "markdown/andre-coutinho.md"
+    },
+    "julio-cho": {
+        "id": "julio-cho",
+        "title": "Um biólogo na Bain & Co",
+        "date": "29/01/2016",
+        "name": "Júlio Cho",
+        "promotion": "X2010",
+        "expertise": "Consultoria Estratégica",
+        "path": "markdown/julio-cho.md"
     }
 }
