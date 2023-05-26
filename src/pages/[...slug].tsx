@@ -48,7 +48,7 @@ export async function getStaticProps({ params }: StaticPropsContext) {
         const metadataJson: Record<string, MetaDataProps> = require("../content/metadata.json");
         pageMetadata = metadataJson[pageInJson.id];
 
-        if (pageMetadata && pageMetadata.path) {
+        if (pageMetadata && pageMetadata.path && fs.existsSync(pageMetadata.path)) {
             const filePath = path.join(process.cwd(), "src/content", pageMetadata.path);
             markdown = fs.readFileSync(filePath, "utf8");
 

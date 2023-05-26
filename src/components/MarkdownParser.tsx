@@ -56,8 +56,16 @@ const components = {
         const children = props.children;
         return <blockquote className="markdown-blockquote">{children}</blockquote>;
     },
-    ul: ({ node, ...props }: any) => <List sx={{ listStyleType: "disc", pl: 4 }} className="markdown-list">{props.children}</List>,
-    li: ({ node, ...props }: any) => <ListItem sx={{ display: "list-item" }} className="markdown-list-item">{props.children}</ListItem>,
+    ul: ({ node, ...props }: any) => (
+        <List sx={{ listStyleType: "disc", pl: 4 }} className="markdown-list">
+            {props.children}
+        </List>
+    ),
+    li: ({ node, ...props }: any) => (
+        <ListItem sx={{ display: "list-item" }} className="markdown-list-item">
+            {props.children}
+        </ListItem>
+    ),
 };
 
 interface MarkdownParserProps {
@@ -65,7 +73,15 @@ interface MarkdownParserProps {
 }
 
 const MarkdownParser: React.FC<MarkdownParserProps> = ({ markdown }) => {
-    return <ReactMarkdown className="markdown-content" children={markdown} components={components} />;
+    return (
+        <>
+            {markdown !== undefined ? (
+                <ReactMarkdown className="markdown-content" children={markdown} components={components} />
+            ) : (
+                <Box className="markdown-content" />
+            )}
+        </>
+    );
 };
 
 export default MarkdownParser;
