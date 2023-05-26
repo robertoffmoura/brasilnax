@@ -9,7 +9,7 @@ import ListItem from "@mui/material/ListItem";
 import YouTubePlayer, { extractYouTubeVideoId } from "./YoutubePlayer";
 
 const components = {
-    p: ({ node, ...props }: any) => {
+    p: ({ ...props }: any) => {
         const children = props.children;
         // Verify if inside there is an Image
         const hasImage = React.Children.toArray(children).some((child) => {
@@ -24,13 +24,13 @@ const components = {
         }
         return <Typography {...props} />;
     },
-    h1: ({ node, ...props }: any) => <Typography variant="h1" {...props} />,
-    h2: ({ node, ...props }: any) => <Typography variant="h2" {...props} />,
-    h3: ({ node, ...props }: any) => <Typography variant="h3" {...props} />,
-    h4: ({ node, ...props }: any) => <Typography variant="h4" {...props} />,
-    h5: ({ node, ...props }: any) => <Typography variant="h5" {...props} />,
-    h6: ({ node, ...props }: any) => <Typography variant="h6" {...props} />,
-    hr: ({ node, ...props }: any) => <Divider className="markdown-divider" {...props} />,
+    h1: ({ ...props }: any) => <Typography variant="h1" {...props} />,
+    h2: ({ ...props }: any) => <Typography variant="h2" {...props} />,
+    h3: ({ ...props }: any) => <Typography variant="h3" {...props} />,
+    h4: ({ ...props }: any) => <Typography variant="h4" {...props} />,
+    h5: ({ ...props }: any) => <Typography variant="h5" {...props} />,
+    h6: ({ ...props }: any) => <Typography variant="h6" {...props} />,
+    hr: ({ ...props }: any) => <Divider className="markdown-divider" {...props} />,
     img: ({ src, alt, ...props }: any) => {
         const imagePath = "/images/" + src;
         return (
@@ -56,12 +56,12 @@ const components = {
         const children = props.children;
         return <blockquote className="markdown-blockquote">{children}</blockquote>;
     },
-    ul: ({ node, ...props }: any) => (
+    ul: ({ ...props }: any) => (
         <List sx={{ listStyleType: "disc", pl: 4 }} className="markdown-list">
             {props.children}
         </List>
     ),
-    li: ({ node, ...props }: any) => (
+    li: ({ ...props }: any) => (
         <ListItem sx={{ display: "list-item" }} className="markdown-list-item">
             {props.children}
         </ListItem>
