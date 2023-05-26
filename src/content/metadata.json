@@ -101,5 +101,50 @@
         "promotion": "X2007",
         "expertise": "Engenharia Elétrica",
         "path": "markdown/cesar-moura.md"
+    },
+    "elison-matioli": {
+        "id": "elison-matioli",
+        "title": "Escolha aquilo que te apaixona",
+        "date": "06/05/2016",
+        "name": "Elison Matioli",
+        "promotion": "X2002",
+        "expertise": "Semicondutores e eficiência energética",
+        "path": "markdown/elison-matioli.md"
+    },
+    "guilherme-mazanti": {
+        "id": "guilherme-mazanti",
+        "title": "Teoria de controle",
+        "date": "14/03/2016",
+        "name": "Guilherme Mazanti",
+        "promotion": "X2008",
+        "expertise": "Matemática aplicada - Controle",
+        "path": "markdown/guilherme-mazanti.md"
+    },
+    "arthur-amorim": {
+        "id": "arthur-amorim",
+        "title": "No meio do doutorado tinha uma start-up",
+        "date": "29/01/2016",
+        "name": "Arthur Azevedo de Amorim",
+        "promotion": "X2006",
+        "expertise": "Computação",
+        "path": "markdown/arthur-amorim.md"
+    },
+    "igor-dias": {
+        "id": "igor-dias",
+        "title": "Da X até catálise homogênea",
+        "date": "29/01/2016",
+        "name": "Igor Dias-Jurberg",
+        "promotion": "X2003",
+        "expertise": "Educação e pesquisa",
+        "path": "markdown/igor-dias.md"
+    },
+    "ricardo-marino": {
+        "id": "ricardo-marino",
+        "title": "'Larga tudo e faz finanças!'",
+        "date": "29/01/2016",
+        "name": "Ricardo Marino",
+        "promotion": "X2008",
+        "expertise": "Acadêmica - Física",
+        "path": "markdown/ricardo-marino.md"
     }
 }

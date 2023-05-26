@@ -83,7 +83,7 @@
                         "name": "Ciência da Computação",
                         "path": "/daniel-silva",
                         "type": "post"
-                    }  
+                    }
                 ]
             },
             {
@@ -104,7 +104,7 @@
                         "name": "Consultoria",
                         "path": "/julio-cho",
                         "type": "post"
-                    }  
+                    }
                 ]
             },
             {
@@ -140,7 +140,7 @@
                         "name": "Engenharia",
                         "path": "/saulo-trento",
                         "type": "post"
-                    }  
+                    }
                 ]
             },
             {
@@ -161,7 +161,7 @@
                         "name": "Finanças",
                         "path": "/cesar-moura",
                         "type": "post"
-                    }  
+                    }
                 ]
             },
             {
@@ -169,7 +169,39 @@
                 "name": "Pesquisa",
                 "path": "/pesquisa",
                 "type": "post-list",
-                "showMenu": false
+                "showMenu": false,
+                "subPages": [
+                    {
+                        "id": "elison-matioli",
+                        "name": "Pesquisa",
+                        "path": "/elison-matioli",
+                        "type": "post"
+                    },
+                    {
+                        "id": "guilherme-mazanti",
+                        "name": "Pesquisa",
+                        "path": "/guilherme-mazanti",
+                        "type": "post"
+                    },
+                    {
+                        "id": "arthur-amorim",
+                        "name": "Pesquisa",
+                        "path": "/arthur-amorim",
+                        "type": "post"
+                    },
+                    {
+                        "id": "igor-dias",
+                        "name": "Pesquisa",
+                        "path": "/igor-dias",
+                        "type": "post"
+                    },
+                    {
+                        "id": "ricardo-marino",
+                        "name": "Pesquisa",
+                        "path": "/ricardo-marino",
+                        "type": "post"
+                    }
+                ]
             }
         ]
     }
