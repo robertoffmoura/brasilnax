@@ -65,5 +65,23 @@
         "promotion": "X2003",
         "expertise": "Recrutamento de talentos",
         "path": "markdown/lucas-mendes.md"
+    },
+    "jefferson-gomes": {
+        "id": "jefferson-gomes",
+        "title": "De matéria condensada à GPS",
+        "date": "07/03/2016",
+        "name": "Jefferson Gomes",
+        "promotion": "X2002",
+        "expertise": "Automobilística",
+        "path": "markdown/jefferson-gomes.md"
+    },
+    "saulo-trento": {
+        "id": "saulo-trento",
+        "title": "A arte da proteção de sistemas elétricos",
+        "date": "07/03/2016",
+        "name": "Saulo Trento",
+        "promotion": "X2007",
+        "expertise": "Engenharia Elétrica",
+        "path": "markdown/saulo-trento.md"
     }
 }

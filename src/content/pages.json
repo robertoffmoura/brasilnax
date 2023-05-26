@@ -127,7 +127,21 @@
                 "name": "Engenharia",
                 "path": "/engenharia",
                 "type": "post-list",
-                "showMenu": false
+                "showMenu": false,
+                "subPages": [
+                    {
+                        "id": "jefferson-gomes",
+                        "name": "Engenharia",
+                        "path": "/jefferson-gomes",
+                        "type": "post"
+                    },
+                    {
+                        "id": "saulo-trento",
+                        "name": "Engenharia",
+                        "path": "/saulo-trento",
+                        "type": "post"
+                    }  
+                ]
             },
             {
                 "id": "financas",

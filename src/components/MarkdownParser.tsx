@@ -4,6 +4,8 @@ import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
 import Box from "@mui/material/Box";
 import Link from "@mui/material/Link";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
 import YouTubePlayer, { extractYouTubeVideoId } from "./YoutubePlayer";
 
 const components = {
@@ -54,6 +56,8 @@ const components = {
         const children = props.children;
         return <blockquote className="markdown-blockquote">{children}</blockquote>;
     },
+    ul: ({ node, ...props }: any) => <List sx={{ listStyleType: "disc", pl: 4 }} className="markdown-list">{props.children}</List>,
+    li: ({ node, ...props }: any) => <ListItem sx={{ display: "list-item" }} className="markdown-list-item">{props.children}</ListItem>,
 };
 
 interface MarkdownParserProps {
