@@ -83,5 +83,23 @@
         "promotion": "X2007",
         "expertise": "Engenharia Elétrica",
         "path": "markdown/saulo-trento.md"
+    },
+    "priscila-franco": {
+        "id": "priscila-franco",
+        "title": "Uma matemática no Santander",
+        "date": "11/03/2016",
+        "name": "Priscila Franco",
+        "promotion": "X2004",
+        "expertise": "Finanças e análise quantitativa",
+        "path": "markdown/priscila-franco.md"
+    },
+    "cesar-moura": {
+        "id": "cesar-moura",
+        "title": "X2001, desbravadores da X",
+        "date": "07/03/2016",
+        "name": "Cesar Moura",
+        "promotion": "X2007",
+        "expertise": "Engenharia Elétrica",
+        "path": "markdown/cesar-moura.md"
     }
 }

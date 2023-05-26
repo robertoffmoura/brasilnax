@@ -148,7 +148,21 @@
                 "name": "Finanças",
                 "path": "/financas",
                 "type": "post-list",
-                "showMenu": false
+                "showMenu": false,
+                "subPages": [
+                    {
+                        "id": "priscila-franco",
+                        "name": "Finanças",
+                        "path": "/priscila-franco",
+                        "type": "post"
+                    },
+                    {
+                        "id": "cesar-moura",
+                        "name": "Finanças",
+                        "path": "/cesar-moura",
+                        "type": "post"
+                    }  
+                ]
             },
             {
                 "id": "pesquisa",
