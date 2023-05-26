@@ -112,7 +112,15 @@
                 "name": "Empreendorismo",
                 "path": "/empreendorismo",
                 "type": "post-list",
-                "showMenu": false
+                "showMenu": false,
+                "subPages": [
+                    {
+                        "id": "lucas-mendes",
+                        "name": "Empreendorismo",
+                        "path": "/lucas-mendes",
+                        "type": "post"
+                    }
+                ]
             },
             {
                 "id": "engenharia",

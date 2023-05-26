@@ -39,7 +39,7 @@ const PostList: React.FC<PostListInterface> = ({ pageData }) => {
                                     variant="h2"
                                     color={theme.palette.text.secondary}
                                     underline="none"
-                                    style={{ fontStyle: "normal" }}
+                                    style={{ fontStyle: "normal", textAlign: "left" }}
                                     onClick={() => handleRedirect(`${router.asPath}${subPage.path}`)}
                                 >
                                     {title}

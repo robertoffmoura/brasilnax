@@ -56,5 +56,14 @@
         "promotion": "X2010",
         "expertise": "Consultoria Estratégica",
         "path": "markdown/julio-cho.md"
+    },
+    "lucas-mendes": {
+        "id": "lucas-mendes",
+        "title": "Empreendedor que escolheu jogar no nível hard",
+        "date": "28/05/2016",
+        "name": "Lucas Mendes",
+        "promotion": "X2003",
+        "expertise": "Recrutamento de talentos",
+        "path": "markdown/lucas-mendes.md"
     }
 }
