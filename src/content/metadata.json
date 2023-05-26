@@ -1,17 +1,42 @@
 {
     "home": { "id": "home", "path": "markdown/home.md" },
-    "como-chegar": { "id": "como-chegar", "path": "markdown/como-chegar.md", "subPosts": true },
-    "com-convenio": { "id": "com-convenio", "path": "markdown/com-convenio.md", "subPosts": true },
+    "como-chegar": { "id": "como-chegar", "path": "markdown/como-chegar.md", "showSubPosts": true },
+    "com-convenio": { "id": "com-convenio", "path": "markdown/com-convenio.md", "showSubPosts": true },
     "poli-usp": { "id": "poli-usp", "path": "markdown/poli-usp.md" },
     "sem-convenio": {
         "id": "sem-convenio",
         "path": "markdown/sem-convenio.md",
         "title": "Minha universidade não tem convênio, e agora?",
-        "date": " 2/1/2018",
+        "date": " 01/02/2018",
         "authors": ["Ramon Sena - X2016", "Hugo Serrão - X2018"]
     },
     "processo-de-selecao": { "id": "processo-de-selecao", "path": "markdown/processo-de-selecao.md" },
     "documentacao": { "id": "documentacao", "path": "markdown/documentacao.md" },
     "prova-escrita": { "id": "prova-escrita", "path": "markdown/prova-escrita.md" },
-    "prova-oral": { "id": "prova-oral", "path": "markdown/prova-oral.md" }
+    "prova-oral": { "id": "prova-oral", "path": "markdown/prova-oral.md" },
+    "depois": { "id": "depois", "path": "markdown/depois.md", "showSubPosts": true },
+    "ciencia-da-computacao": { "id": "ciencia-da-computacao" },
+    "consultoria": { "id": "consultoria" },
+    "empreendorismo": { "id": "empreendorismo" },
+    "engenharia": { "id": "engenharia" },
+    "financas": { "id": "financas" },
+    "pesquisa": { "id": "pesquisa" },
+    "cesar-ilharco": {
+        "id": "cesar-ilharco",
+        "title": "Jack of all trades, master of none",
+        "date": "19/03/2016",
+        "name": "César Ilharco",
+        "promotion": "X2012",
+        "expertise": "Engenharia de software e Inteligência artificial",
+        "path": "markdown/cesar-ilharco.md"
+    },
+    "daniel-silva": {
+        "id": "daniel-silva",
+        "title": "Inteligência artifical e machine learning",
+        "date": "02/01/2016",
+        "name": "Daniel Ribeiro Silva",
+        "promotion": "X2010",
+        "expertise": "Machine learning e inteligência artificial",
+        "path": "markdown/daniel-silva.md"
+    }
 }

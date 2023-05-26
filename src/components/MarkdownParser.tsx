@@ -44,7 +44,15 @@ const components = {
                 return <YouTubePlayer videoId={videoId} />;
             }
         }
-        return <Link href={href}>{children}</Link>;
+        return (
+            <Link className="markdown-link" href={href}>
+                {children}
+            </Link>
+        );
+    },
+    blockquote: ({ ...props }: any) => {
+        const children = props.children;
+        return <blockquote className="markdown-blockquote">{children}</blockquote>;
     },
 };
 

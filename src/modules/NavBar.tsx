@@ -4,15 +4,10 @@ import Toolbar from "@mui/material/Toolbar";
 import Box from "@mui/material/Box";
 import NestedMenu from "../components/NestedMenu";
 import { useTheme } from "@mui/material/styles";
-
-interface Page {
-    name: string;
-    path: string;
-    subPages?: Page[];
-}
+import { PagesProps } from "../misc/types";
 
 interface NavigationBarProps {
-    pages: Page[];
+    pages: PagesProps[];
 }
 
 const NavigationBar: React.FC<NavigationBarProps> = ({ pages }) => {

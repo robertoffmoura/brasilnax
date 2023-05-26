@@ -90,10 +90,6 @@ body {
     width: 70%;
 }
 
-.MuiLink-root {
-    color: orange;
-}
-
 .MuiListItem-root {
     margin-bottom: 20px;
 }
@@ -129,4 +125,13 @@ body {
 .markdown-youtube {
     width: 80%;
     aspect-ratio: 16 / 11;
+}
+
+.markdown-link {
+    color: orange;
+}
+
+.markdown-blockquote {
+    font-style: italic;
+    color: "#666";
 }

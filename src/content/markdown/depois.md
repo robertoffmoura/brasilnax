@@ -1,0 +1,1 @@
+Nesta seção, você encontra entrevistas e depoimentos de brasileiros que passaram pela X e nos contam porque ela foi importante para estarem onde estão hoje.  Conquistando o mundo, podemos encontrá-los hoje morando nos lugares mais variados e trabalhando nos domínios mais diversos,  desde em consultoria até pesquisa. 

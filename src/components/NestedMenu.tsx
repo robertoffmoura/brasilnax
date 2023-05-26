@@ -6,25 +6,22 @@ import Paper from "@mui/material/Paper";
 import Button from "@mui/material/Button";
 import { useTheme } from "@mui/material/styles";
 import { useRouter } from "next/router";
-
-interface Page {
-    name: string;
-    path: string;
-    subPages?: Page[];
-}
+import { PagesProps } from "../misc/types";
 
 interface NestedMenuProps {
-    page: Page;
+    page: PagesProps;
     depth?: number;
     onOpenChange?: (open: boolean) => void;
 }
 
 // eslint-disable-next-line @typescript-eslint/no-empty-function
 const NestedMenu: React.FC<NestedMenuProps> = ({ page, depth = 0, onOpenChange = () => {} }) => {
+    const [open, setOpen] = useState(false);
     const theme = useTheme();
     const router = useRouter();
-    const [open, setOpen] = useState(false);
     const anchorRef = useRef<HTMLButtonElement>(null);
+
+    const { name, showMenu, subPages } = page;
 
     const handleRedirect = (path: string) => {
         router.push(path);
@@ -56,36 +53,38 @@ const NestedMenu: React.FC<NestedMenuProps> = ({ page, depth = 0, onOpenChange =
                         onKeyDown={handleListKeyDown}
                         sx={{ "&:hover": { backgroundColor: "transparent" }, fontSize: "0.8em" }}
                     >
-                        {page.name}
+                        {name}
                     </MenuItem>
                 </Button>
             </div>
-            <Popper
-                open={open}
-                anchorEl={anchorRef.current}
-                placement={depth === 0 ? "bottom-start" : "right-start"}
-                transition
-                disablePortal
-            >
-                {({ TransitionProps }) => (
-                    <Fade {...TransitionProps} timeout={350}>
-                        <Paper
-                            sx={{
-                                backgroundColor: theme.palette.primary.light,
-                            }}
-                        >
-                            {page.subPages?.map((subPage, index) => (
-                                <NestedMenu
-                                    key={index}
-                                    page={{ ...subPage, path: `${page.path}${subPage.path}` }}
-                                    depth={depth + 1}
-                                    onOpenChange={setOpen}
-                                />
-                            ))}
-                        </Paper>
-                    </Fade>
-                )}
-            </Popper>
+            {showMenu !== false && (
+                <Popper
+                    open={open}
+                    anchorEl={anchorRef.current}
+                    placement={depth === 0 ? "bottom-start" : "right-start"}
+                    transition
+                    disablePortal
+                >
+                    {({ TransitionProps }) => (
+                        <Fade {...TransitionProps} timeout={350}>
+                            <Paper
+                                sx={{
+                                    backgroundColor: theme.palette.primary.light,
+                                }}
+                            >
+                                {subPages?.map((subPage, index) => (
+                                    <NestedMenu
+                                        key={index}
+                                        page={{ ...subPage, path: `${page.path}${subPage.path}` }}
+                                        depth={depth + 1}
+                                        onOpenChange={setOpen}
+                                    />
+                                ))}
+                            </Paper>
+                        </Fade>
+                    )}
+                </Popper>
+            )}
         </div>
     );
 };

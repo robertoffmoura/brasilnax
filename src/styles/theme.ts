@@ -21,6 +21,7 @@ const defaultTheme = createTheme({
         },
         text: {
             primary: "#666666",
+            secondary: "#333"
         },
     },
     typography: {

@@ -11,26 +11,21 @@ interface StaticPropsContext {
     };
 }
 
-export default function Page({ pageData, markdown, pageType, pageMetadata }: any) {
-    if (!pageData) return <div>No Page Found</div>;
+interface GenericPageProps {
+    pageData: PagesProps;
+    markdown: string;
+    pageType: string;
+    pageMetadata: MetaDataProps;
+}
 
-    let ContentComponent;
-    switch (pageType) {
-        case "post":
-            ContentComponent = Post;
-            break;
-        case "post-list":
-            ContentComponent = PostList;
-            break;
-        default:
-            ContentComponent = null;
-            break;
-    }
+export default function GenericPage({ pageData, markdown, pageType, pageMetadata }: GenericPageProps) {
+    if (!pageData) return <div>No Page Found</div>;
 
     return (
         <>
             <Banner title={pageData.name} />
-            {ContentComponent && <ContentComponent metadata={pageMetadata} markdown={markdown} />}
+            {pageType === "post" && <Post metadata={pageMetadata} markdown={markdown}></Post>}
+            {pageType === "post-list" && <PostList pageData={pageData}></PostList>}
         </>
     );
 }
@@ -53,11 +48,11 @@ export async function getStaticProps({ params }: StaticPropsContext) {
         const metadataJson: Record<string, MetaDataProps> = require("../content/metadata.json");
         pageMetadata = metadataJson[pageInJson.id];
 
-        if (pageMetadata) {
+        if (pageMetadata && pageMetadata.path) {
             const filePath = path.join(process.cwd(), "src/content", pageMetadata.path);
             markdown = fs.readFileSync(filePath, "utf8");
 
-            if (pageMetadata.subPosts && pageInJson.subPages) {
+            if (pageMetadata.showSubPosts && pageInJson.subPages) {
                 const subPages = pageInJson.subPages.map((subPage) => ({ path: subPage.path, name: subPage.name }));
                 pageMetadata.subPostList = subPages;
             }

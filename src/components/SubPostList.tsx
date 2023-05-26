@@ -20,7 +20,7 @@ const SubPostList: React.FC<SubPostListProps> = ({ subPosts }) => {
                     <List>
                         {subPosts.map((subPost, index) => (
                             <ListItem disablePadding key={subPost.name} sx={{}}>
-                                <Link href={`${router.pathname}${subPost.path}`}>{subPost.name}</Link>
+                                <Link className="markdown-link" href={`${router.asPath}${subPost.path}`}>{subPost.name}</Link>
                             </ListItem>
                         ))}
                     </List>
