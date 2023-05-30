@@ -47,11 +47,9 @@ export async function getStaticProps({ params }: StaticPropsContext) {
         // eslint-disable-next-line @typescript-eslint/no-var-requires
         const metadataJson: Record<string, MetaDataProps> = require("../content/metadata.json");
         pageMetadata = metadataJson[pageInJson.id];
-
-        if (pageMetadata && pageMetadata.path && fs.existsSync(pageMetadata.path)) {
+        if (pageMetadata && pageMetadata.path && fs.existsSync(path.join(process.cwd(), "src/content", pageMetadata.path))) {
             const filePath = path.join(process.cwd(), "src/content", pageMetadata.path);
             markdown = fs.readFileSync(filePath, "utf8");
-
             if (pageMetadata.showSubPosts && pageInJson.subPages) {
                 const subPages = pageInJson.subPages.map((subPage) => ({ path: subPage.path, name: subPage.name }));
                 pageMetadata.subPostList = subPages;

@@ -1,0 +1,31 @@
+“It was the best of times, it was the worst of times”. A frase de Dickens poderia muito bem se referir ao Tronc Commun, a gloriosa época em que você se contorcerá para aprender a se expressar em uma nova língua, fazer amizades com um povo desprovido do metafórico calor brasileiro ao qual você está acostumado, a um clima desprovido do literal calor brasileiro ao qual você também está acostumado e ao mesmo tempo tentar entender o que diabos é esse teorema da convergência dominada de Lebesgue de que todo mundo está falando. E você vai adorá-lo. 
+
+### Parte 1:  As matérias
+
+Durante o tronc commun, todos os alunos da X fazem as mesmas seis disciplinas: matemática pura, matemática aplicada, física, informática, economia e humanidades. Para os alunos internacionais, existe a complicação extra de se adaptar ao esquema de aulas na França, ao ritmo com o qual os conteúdos são dados e ao tipo de prova.  Esses temas sendo abordados em outros posts do blog, vamos nos focar nas matérias que você fará.
+
+![Pointcare](poincare.jpg)
+
+Vamos começar com o elefante na sala: o curso de matemática pura. Um poutpourri de análise funcional, teoria espectral e um pouco de problemas variacionais, ele vem em dois sabores, um básico e um avançado: quem escolhe a versão do curso é você, embora seu professor do [semestre preparatório](/durante/vida-academica/formacao-preparatoria) provavelmente vá te aconselhar algum dos dois. É aqui que a diferença de nível em comparação ao Brasil é mais forte: os conceitos são apresentados com um nível de abstração e rigor aos quais as universidades do nosso país claramente não nos preparam. Ainda assim, o curso é bem estruturado e, estudando regularmente e fazendo as listas de exercícios, a jornada se tornará menos árdua, e talvez você até acabe ganhando um gosto pela coisa. 
+ 
+A **matemática aplicada** é outra criatura: embora o lado “aplicado” seja questionável, o enfoque é notavelmente menos rigoroso, embora a abordagem de probabilidade, tema do curso, seja muito mais teórica e aprofundada que a de uma universidade no Brasil. Os anfiteatros são bem feitos e a maioria das pessoas tem experiências muito boas com a petite classe: os exercícios são elaborados com esmero, traçando com frequência relações com temas de pesquisa dos professores.   
+ 
+O curso de **física** é constantemente avaliado como o melhor curso do tronc commun pelos alunos, e por bom motivo: o tema, física quântica, é instigante, os anfiteatros, muito bem dados e as petite classes e exercícios, muito bem feitas. Essa é uma constante com o departamento de física, muito cuidadoso com o ensino (foram eles que introduziram o sistema de quiz durante os anfiteatros, por exemplo, que também é adotado por outras cadeiras). 
+ 
+A **informática** no tronc commun, como a matemática pura, é dividida em um curso básico e um avançado, mas aqui a escolha é feita com base nos cursos da área que você fez no Brasil. A matéria em si é extremamente tranquila para quem já tem alguma base em programação: finalmente uma área em que você vai estar menos perdido que os seus coleguinhas franceses! A linguagem utilizada é java, então você vai ter que viver com a vergonha de ter eclipse instalado no seu computador durante o trimestre. 
+ 
+O curso de economia é uma introdução à micro e macroeconomia, com uma aula esquisita de contabilidade jogada no meio que todo mundo meio que finge que não aconteceu. O curso faz um bom trabalho na exposição de dois temas tão amplos em um tempo tão curto, mas o departamento de economia da X, embora muito forte em pesquisa, é amplamente considerado como sendo o menos engajado no ensino, e esse descaso transparece às vezes, principalmente nas petite classes, por vezes totalmente desconectadas do conteúdo do anfiteatro. 
+ 
+A disciplina de **humanidades** é alvo de muita controvérsia. Diferentemente do segundo ano, quando ela pode ser escolhida dentre uma gama enorme de possibilidades, no tronc commun a matéria de administração é imposta a todos os alunos. A ideia do curso é servir de introdução e à mentalidade do empreendedorismo nos moldes modernos, área na qual a escola busca se desenvolver atualmente.
+
+### Parte 2: A vida social 
+
+Não menos importante, o tronc commun é também o momento em que os franceses chegam ao campus, e que você é confrontado com a necessidade de se enturmar em uma cultura diferente e um ambiente estrangeiro. 
+ 
+Não é fácil. Os franceses em geral não vão sair do caminho deles pra te enturmar, e o fato de eles já se conhecerem do estágio militar ou mesmo da época de escola não ajuda. Além disso, a barreira linguística, que pode ser maior ou menor dependendo do quanto você já estudou de francês no Brasil, é um empecilho enorme: mesmo quebrada a resistência inicial, muitas serão as vezes em que aquela sua história que fazia todo mundo chorar de rir no brasil vai dar errado porque você esqueceu de como se diz uma palavra no momento inicial, e vai todo mundo ficar meio sem graça e mudar de assunto rápido. 
+ 
+Dito tudo isso, quando você fez as suas malas deixando pra trás o conforto familiar, as roupas lavadas e aquela camisa regata horrorosa que você nunca mais vai ter a oportunidade de usar, você sabia que teria que aceitar o lado ruim com o bom. O jeito é insistir apesar das situações desconfortáveis que acontecerão inevitavelmente, treinar o seu “omellete de fromage” e ver no que dá. 
+ 
+### Parte 3: Reflexões posteriores
+
+Batismo de fogo da polytechnique, o tronc commun é feito de contradições: repleto de noites mal-dormidas, conteúdos indigeríveis e provas irrazoavelmente grandes e, quando acaba, você sente que passou rápido demais. Se o semestre preparatório é o momento em que você descobre a França, o tronc commun é momento em que você descobre a X: as soirées (festas) no bôbar, a comida do bar d'étage, a vida da promoção. Quando você se sentir como se estivesse se afogando em matérias, atividades extra-curriculares e festas, **aproveite e mergulhe de cabeça: o tronc commun é melhor apreciado em grandes porções.**

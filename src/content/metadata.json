@@ -146,5 +146,70 @@
         "promotion": "X2008",
         "expertise": "Acadêmica - Física",
         "path": "markdown/ricardo-marino.md"
+    },
+    "durante": {
+        "id": "durante",
+        "path": "markdown/durante.md",
+        "showSubPosts": true
+    },
+    "vida-academica": {
+        "id": "vida-academica",
+        "path": "markdown/vida-academica.md",
+        "date": "29/05/2023",
+        "authors": ["Danilo Marinho - X2020"],
+        "showSubPosts": true
+    },
+    "formacao-linguistica": {
+        "id": "formacao-linguistica",
+        "path": "markdown/formacao-linguistica.md",
+        "date": "29/05/2023",
+        "authors": ["Danilo Marinho - X2020"]
+    },
+    "formacao-preparatoria": {
+        "id": "formacao-preparatoria",
+        "path": "markdown/formacao-preparatoria.md",
+        "date": "29/05/2023",
+        "authors": ["Danilo Marinho - X2020"]
+    },
+    "tronco-comum": {
+        "id": "tronco-comum",
+        "path": "markdown/tronco-comum.md",
+        "date": "07/01/2016",
+        "authors": ["João Campos Loula - X2014", "Hugo Serrão - X2018"]
+    },
+    "segundo-ano": {
+        "id": "segundo-ano",
+        "path": "markdown/segundo-ano.md",
+        "date": "25/01/2016",
+        "authors": ["Gabriel Nahas - X2014", "Hugo Serrão - X2018"]
+    },
+    "terceiro-ano": {
+        "id": "terceiro-ano",
+        "path": "markdown/terceiro-ano.md",
+        "showSubPosts": true
+    },
+    "especializacao-computacao": {
+        "id": "especializacao-computacao",
+        "path": "markdown/especializacao-computacao.md",
+        "date": "06/03/2016",
+        "authors": ["Pedro Amorim - X2013"]
+    },
+    "especializacao-matematica-aplicada": {
+        "id": "especializacao-matematica-aplicada",
+        "path": "markdown/especializacao-matematica-aplicada.md",
+        "date": "30/01/2016",
+        "authors": ["Reilton Bernardes - X2013"]
+    },
+    "especializacao-mecanica": {
+        "id": "especializacao-mecanica",
+        "path": "markdown/especializacao-mecanica.md",
+        "date": "30/01/2016",
+        "authors": ["Marcos Velho - X2013"]
+    },
+    "especializacao-quimica": {
+        "id": "especializacao-quimica",
+        "path": "markdown/especializacao-quimica.md",
+        "date": "31/01/2016",
+        "authors": ["Sérgio Cunha - X2013"]
     }
 }

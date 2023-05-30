@@ -15,6 +15,7 @@ interface PostInterface {
 const Post: React.FC<PostInterface> = ({ metadata, markdown }) => {
     const { title, name, date, promotion, expertise, authors, subPostList } = metadata;
     const hasAny = name || promotion || expertise;
+
     return (
         <Container sx={{ display: "flex" }}>
             <SubPostList subPosts={subPostList}></SubPostList>

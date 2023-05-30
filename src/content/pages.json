@@ -60,6 +60,78 @@
         ]
     },
     {
+        "id": "durante",
+        "name": "Durante",
+        "path": "/durante",
+        "type": "post",
+        "subPages": [
+            {
+                "id": "vida-academica",
+                "name": "Vida Acadêmica",
+                "path": "/vida-academica",
+                "type": "post",
+                "subPages": [
+                    {
+                        "id": "formacao-linguistica",
+                        "name": "Formação Linguística",
+                        "path": "/formacao-linguistica",
+                        "type": "post"
+                    },
+                    {
+                        "id": "formacao-preparatoria",
+                        "name": "Formação Preparatória",
+                        "path": "/formacao-preparatoria",
+                        "type": "post"
+                    },
+                    {
+                        "id": "tronco-comum",
+                        "name": "Tronco Comum",
+                        "path": "/tronco-comum",
+                        "type": "post"
+                    },
+                    {
+                        "id": "segundo-ano",
+                        "name": "Segundo Ano",
+                        "path": "/segundo-ano",
+                        "type": "post"
+                    },
+                    {
+                        "id": "terceiro-ano",
+                        "name": "Terceiro Ano",
+                        "path": "/terceiro-ano",
+                        "type": "post",
+                        "subPages": [
+                            {
+                                "id": "especializacao-computacao",
+                                "name": "Especialização em Computação",
+                                "path": "/especializacao-computacao",
+                                "type": "post"
+                            },
+                            {
+                                "id": "especializacao-matematica-aplicada",
+                                "name": "Especalização em Matemática Aplicada",
+                                "path": "/especializacao-matematica-aplicada",
+                                "type": "post"
+                            },
+                            {
+                                "id": "especializacao-mecanica",
+                                "name": "Especalização em Mecânica",
+                                "path": "/especializacao-mecanica",
+                                "type": "post"
+                            },
+                            {
+                                "id": "especializacao-quimica",
+                                "name": "Especalização em Química",
+                                "path": "/especializacao-quimica",
+                                "type": "post"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "depois",
         "name": "Depois da X",
         "path": "/depois",

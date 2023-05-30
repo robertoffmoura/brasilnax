@@ -1,0 +1,5 @@
+Bom, finalmente o [tronco comum](/durante/vida-academica/tronco-comum) acabou. Talvez Análise Real tenha te traumatizado ou te feito ficar apaixonado por Matemática, mas de um jeito ou de outro as matérias obrigatórias acabaram. No segundo ano, você terá a liberdade de escolher todas as matérias que vai cursar. Um sonho acadêmico para grande parte dos brasileiros acostumados com currículos engessados com pouquíssima liberdade, é neste momento que você terá a chance de direcionar a sua formação e começar a se especializar no que quiser. 
+
+O segundo ano na X consiste em 3 períodos nos quais você deve cursar disciplinas científicas de ao menos 4 departamentos diferentes. Em cada período, que dura em média 11 semanas, você deve escolher 3 disciplinas entre em média 10 que são oferecidas por 8 departamentos diferentes. Além disso, você conta com aulas de línguas, humanidades, [esporte](/durante/vida-associativa/esportes) e um projeto científico. Em seguida, oferecemos informações mais detalhadas sobre cada um dos departamentos da École Polytechnique.
+
+![2A - Ecole Polytechnique](segundo_ano.png)
