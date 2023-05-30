@@ -211,5 +211,57 @@
         "path": "markdown/especializacao-quimica.md",
         "date": "31/01/2016",
         "authors": ["Sérgio Cunha - X2013"]
+    },
+    "vida-associativa": {
+        "id": "vida-associativa",
+        "path": "markdown/vida-associativa.md",
+        "showSubPosts": true
+    },
+    "binets": {
+        "id": "binets",
+        "path": "markdown/binets.md",
+        "title": "Porque não só de amphis vive o polytechnicien ",
+        "date": "23/03/2016",
+        "authors": ["Daniel Soares - X2012"]
+    },
+    "esportes": {
+        "id": "esportes",
+        "path": "markdown/esportes.md",
+        "title": "A vida esportiva na X",
+        "date": "21/03/2016",
+        "authors": ["Francisco Eckhardt - X2014"]
+    },
+    "brasil-x": {
+        "id": "brasil-x",
+        "path": "markdown/brasil-x.md",
+        "title": "O Binet mais quente do Platâl",
+        "date": "11/11/2018",
+        "authors": ["Eduardo Costa - X2014", "Roberto Moura - X2017"]
+    },
+    "custos-bolsas": {
+        "id": "custos-bolsas",
+        "path": "markdown/custos-bolsas.md",
+        "title": "E a bolsa é suficiente? Como vou custear meus estudos?",
+        "date": "31/03/2020",
+        "authors": ["Hugo Serrão - X2018"]
+    },
+    "estagios": {
+        "id": "estagios",
+        "path": "markdown/estagios.md",
+        "showSubPosts": true
+    },
+    "estagio-empresarial": {
+        "id": "estagio-empresarial",
+        "path": "markdown/estagio-empresarial.md",
+        "title": "Un stage de ce que tu veux",
+        "date": "10/04/2016",
+        "authors": ["Cesar Iharco - X2012", "Hugo Serrão - X2018"]
+    },
+    "estagio-pesquisa": {
+        "id": "estagio-pesquisa",
+        "path": "markdown/estagio-pesquisa.md",
+        "title": "A wild stage de recherche",
+        "date": "28/01/2016",
+        "authors": ["Gabriel Rovina - X2012"]
     }
 }

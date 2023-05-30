@@ -1,0 +1,26 @@
+Se você chegou a este site é porque, de algum modo, ouviu falar da École Polytechnique e se interessou pela ideia de vir estudar aqui. Provavelmente já conhece a sua reputação em matemática e ciências, suas tradições e seu belo uniforme. O que você talvez não conheça é a riqueza e a diversidade da vida associativa no seu campus. Além das tradições e da vida dentro das seções esportivas, são essas associações (chamadas binets) que ajudam a criar o sentimento de promotion que une a cada ano todos os 500 polytechniciens das mais diversas origens.
+ 
+A vida associativa na X  começou a se desenvolver a um ritmo impressionante depois que a escola se mudou do quartier Latin em Paris, com toda a sua vida animada, para o plateau de Saclay, basicamente um grande campo de batata na época. Muitos anos se passaram, mas as coisas não mudaram muito. O relativo isolamento do campus (40 minutos de trem até Paris), a boa saúde financeira da escola e, principalmente, a motivação e a criatividade de seus alunos são os principais motores dessa vida associativa.
+
+O número de associações se conta em centenas e está sempre em mutação, dado que a cada ano novos binets são criados. Como exemplo, você vai encontrar binets ligados a esportes (ski, paraquedismo, vela, karatê,...), culinária (queijos e vinhos, cervejas, chocolate, kebab,...), artes (heavy metal, coral, jazz, teatro, dança de salão, mágica,...), culturas do mundo (latina, russa, germânica, chinesa, árabe,...), confissões religiosas (cristã, judaica), científicos (robótica, astronomia, programação,...), empresariais (consultoria, empresa junior, start-up,...), ações humanitárias (coleta de roupas, assistência a crianças hospitalizadas,...) e muito mais.
+ 
+No centro de tudo isso está a Kès, o bureau des élèves da X. Composta de 16 estudantes, cada um com uma responsabilidade diferente, ela tem como funções: financiar e auxiliar o funcionamento de todos os binets, trabalhando em parceria com os presidentes de cada um ao longo do ano; representar os estudantes perante a administração; comandar diretamente diversas atividades, como a integração dos calouros, o jornal da escola e as principais festas; estar presente em todo grande evento organizado no campus. O dinheiro que alimenta a Kès (e todos os binets indiretamente) provém de principalmente de três fontes: alunos, escola e empresas.
+
+A escolha dos estudantes que compõem a Kès (os kessiers) é feita através de uma votação em que participam todos os alunos que moram no campus. Após uma semana de campanha inesquecível, que conta com uma série de eventos e muita comida grátis, a chapa com mais voto é eleita. Em geral as chapas são formadas bem cedo, durante o tronco comum. Dentre os 16 membros existe um posto que interessa particularmente os estudantes internacionais, o de kessier inter, responsável pela integração e representação de estudantes internacionais. A lenda diz que o brasileiro ou a brasileira mais atraente de cada promoção acaba virando aspirante a kessier inter.
+
+![Campanha Kes](campanha_kes.jpg)
+
+De modo geral, os binets que exigem um maior investimento possuem uma equipe fixa durante um ano. Os novos membros são escolhidos durante o segundo ano pelos membros antigos após um período chamado de pré-passation. Durante esse período os chamados aspirantes participam nas atividades dos binets e podem ser avaliados pela sua motivação e capacidade de assumir as responsabilidades do binet em questão. Ao fim dessa seleção, os novos membros substituem os antigos num processo chamado de passation, que é em geral seguido de uma festa aberta ou não a toda promoção.
+ 
+Dentre os binets que possuem uma pré-passation mais disputada e que, consequentemente, exigem um investimento e possuem um impacto maior na vida da promoção, podemos citar:
+
+- **JTX** - escreve, produz e edita filmes dos mais diversos temas e formatos, indo desde o simples registro de um evento a uma produção digna de um Urso de Ouro. 
+- **Bôbar** - equipe que mantém o bar da escola e que se aproveita disso pra bater na sua porta às 3 da manhã se você não pagar suas dívidas. 
+- **STYX** - organiza e anima, sozinho ou em colaboração com outros binets, (quase) todas as festas que ocorrem no campus. 
+- **Khômiss** - binet responsável por transmitir as tradições da X, das maneiras mais diversas e inesperadas. 
+- **X-Projets** - empresa júnior da X e uma ótima oportunidade de conseguir aquele contato com o CEO de uma grande empresa.
+
+Pra resumir um pouco a coisa, podemos listar três maneiras diferentes (e complementares) de desfrutar de toda essa vida associativa:
+1) Participando às festas, jantares, viagens, competições e outros eventos oferecidos pelos binets. Uma ótima oportunidade pra se divertir e conhecer pessoas.
+2) Tornando-se membro de um binet e ajudando na organização de suas atividades. Ideal para quem quer contribuir a animar a vida no campus. Também é um ótimo meio de se integrar e desenvolver o espírito de promoção.
+3) Ocupando um posto de responsabilidade em um binet. Para tal é preciso estar disposto a dedicar uma grande parte do seu tempo e sacrificar um pouco a vida acadêmica. Nesse caso você vai estar por trás da organização dos principais eventos, ter a oportunidade de conhecer praticamente toda a promoção e ter aquele orgulho de ser responsável por algo que deu certo.

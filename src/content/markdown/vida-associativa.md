@@ -1,0 +1,3 @@
+Nem só de estudos vive um polytechnicien. Fora da sala de aula, os alunos da École Polytechnique são extremamente ativos e a X conta com mais de uma centena de associações, os Binets, para todos os gostos. Dentre estas organizações se encontra o Binet Latino, responsável pela criação e gestão do Brasil na X. Além disso, o esporte possui um papel importante no programa do Ingénieur Polytechnicien, sendo uma parte obrigatória do currículo.
+
+Assim, nesta seção, você encontra todas as informações sobre o fora da sala de aula da École Polytechnique e fica sabendo um pouquinho mais sobre as atividades do Binet Latino.
