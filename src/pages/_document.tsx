@@ -15,11 +15,11 @@ class AppDocument extends Document {
                     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
                     <meta
                         name="description"
-                        content=""
+                        content="Brasil na X é um site para ajudar brasileiros a entrarem na Ecole Polytechnique!"
                     />
                     <meta
                         name="keywords"
-                        content=""
+                        content="Brasil, Ecole Polytechnique, Polytechnique, X, Brasil na X"
                     />
                     <meta name="author" content="brasilnax.com.br" />
                 </Head>

@@ -1,5 +1,3 @@
-## Formação línguistica em Villeneuve-sur-Lot
-
 Ao chegar na X em setembro, os estudantes internacionais nao francófonos passam por uma formação linguística intensiva em Villeneuve-sur-Lot, no sudoeste da França, onde ficam durante 4 meses morando com uma família francesa.  Tudo isso é pago pela X, exceto para alunos que possuem a bolsa Eiffel, que é suficiente para cobrir todos os custos sem problemas. O programa inclui em torno de 35 horas semanais de curso, em turmas divididas pelo nível inicial de francês, que podem mudar de acordo com a progressao de cada estudante. Algumas visitas culturais na região, onde se encontram grandes cidades como Bordeaux e Toulouse, bem como pequenas cidades turísticas, também sao previstas. Espera-se atingir nível B2 ou superior ao final dos 4 meses, o que em geral nao é problema para alunos brasileiros, mesmo chegando sem conhecimento da língua. Em geral, é um período que contribui para a compreensão da língua e cultura francesa, além de ser um excelente momento para conhecer os demais estudantes internacionais, de países como China, Rússia, Vietnã e Camboja.
 
 ![villeneuve](villeneuve.jpg)

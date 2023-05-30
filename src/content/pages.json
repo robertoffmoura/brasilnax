@@ -60,6 +60,13 @@
         ]
     },
     {
+        "id": "material-preparacao",
+        "name": "Material de Preparação",
+        "path": "/material-preparacao",
+        "type": "post",
+        "subPages": []
+    },
+    {
         "id": "durante",
         "name": "Durante",
         "path": "/durante",

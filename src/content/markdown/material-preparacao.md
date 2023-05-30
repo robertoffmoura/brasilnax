@@ -1,0 +1,5 @@
+Além de todo o conteúdo do site com informações sobre o processo de seleção e o dia a dia dos estudantes na École polytechnique, possuímos também um banco de dados com livros e exercícios para te ajudar a se preparar. 
+
+Para ter acesso,  basta clicar [aqui](https://www.dropbox.com/sh/gthxcngw7uxkc4u/AAD1NpFLJa0WSSRbqwnXOtP5a?dl=0&fbclid=IwAR35GCTPyCBX_fJs2ZFijp7ApowMTYw-NhhaZN3eTj_2ltl4l7p8h6Jya9U)
+
+Nós temos também um outro dropbox com documentos de pessoas aprovadas anteriormente, mas por motivos de confidencialidade não podemos deixar aberto aqui. Se você tem interesse nisso manda uma mensagem pra nós no formulário de contato aqui do site ou mandando um e-mail pro brasilnax@gmail.com (Nós costumamos fazer um grupo de Wpp para colocar o pessoal que vai fazer a prova em contato e ajudar vocês na hora de estudar) [Não precisa nem falar que não é para encarar os outros brasileiros como seus concorrentes e sim como parceiros de estudo. É muito mais provável vocês passarem se ajudando que sozinhos]

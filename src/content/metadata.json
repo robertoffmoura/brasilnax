@@ -162,14 +162,16 @@
     "formacao-linguistica": {
         "id": "formacao-linguistica",
         "path": "markdown/formacao-linguistica.md",
+        "title": "Formação línguistica em Villeneuve-sur-Lot",
         "date": "29/05/2023",
         "authors": ["Danilo Marinho - X2020"]
     },
     "formacao-preparatoria": {
         "id": "formacao-preparatoria",
         "path": "markdown/formacao-preparatoria.md",
+        "title": "Formação preparatória: Um pouco de matemática, física e… muito de francês",
         "date": "29/05/2023",
-        "authors": ["Danilo Marinho - X2020"]
+        "authors": ["Gabriel Azevedo - X2014", "Danilo Marinho - X2020"]
     },
     "tronco-comum": {
         "id": "tronco-comum",
@@ -263,5 +265,9 @@
         "title": "A wild stage de recherche",
         "date": "28/01/2016",
         "authors": ["Gabriel Rovina - X2012"]
+    },
+    "material-preparacao": {
+        "id": "material-preparacao",
+        "path": "markdown/material-preparacao.md"
     }
 }
