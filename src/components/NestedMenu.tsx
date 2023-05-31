@@ -51,7 +51,7 @@ const NestedMenu: React.FC<NestedMenuProps> = ({ page, depth = 0, onOpenChange =
                     <MenuItem
                         onClick={() => handleRedirect(page.path)}
                         onKeyDown={handleListKeyDown}
-                        sx={{ "&:hover": { backgroundColor: "transparent" }, fontSize: "0.8em" }}
+                        sx={{ "&:hover": { backgroundColor: "transparent" }, fontSize: "0.9em" }}
                     >
                         {name}
                     </MenuItem>
