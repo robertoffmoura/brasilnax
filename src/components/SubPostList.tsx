@@ -13,7 +13,7 @@ const SubPostList: React.FC<SubPostListProps> = ({ subPosts }) => {
     const router = useRouter()
 
     return (
-        <Box className="side-panel" sx={{marginRight: "15px"}}>
+        <Box className="side-panel subpost">
             {subPosts && (
                 <>
                     <Typography variant="h6" sx={{fontWeight: "bold", marginBottom: "10px"}}>Ver também</Typography>

@@ -116,10 +116,62 @@ body {
 
 .side-panel {
     width: 15%;
+    @media (max-width: 991px) {
+        width: 100%;
+    }
+}
+
+.author {
+    order: 3;
+    margin-left: 15px;
+    @media (max-width: 991px) {
+        margin-top: 1em;
+        margin-left: 0px;
+        order: 2;
+    }
+}
+
+.subpost {
+    order: 1;
+    margin-right: 15px;
+    @media (max-width: 991px) {
+        margin-top: 1em;
+        margin-right: 0px;
+        order: 3;
+    }
 }
 
 .post-main-content {
     width: 70%;
+    order: 2;
+    @media (max-width: 991px) {
+        width: 100%;
+        order: 1;
+    }
+}
+
+.post-container {
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 991px) {
+        flex-direction: column;
+        padding: 10px 30px;
+    }
+}
+
+.home-content {
+    @media (max-width: 991px) {
+        flex-direction: column;
+        padding: 10px 30px;
+    }
+}
+
+.post-list-container {
+    max-width: 70%;
+    margin: auto;
+    @media (max-width: 991px) {
+        width: 100%;
+    }
 }
 
 .MuiListItem-root {
@@ -152,11 +204,18 @@ body {
     align-items: center;
     padding: 0;
     margin: 20px 0px;
+    @media (max-width: 991px) {
+        margin: 0px;
+    }
 }
 
 .markdown-youtube {
     width: 80%;
     aspect-ratio: 16 / 11;
+    @media (max-width: 991px) {
+        aspect-ratio: 20 / 11;
+        width: 100%;
+    }
 }
 
 .markdown-link {

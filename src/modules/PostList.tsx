@@ -26,7 +26,7 @@ const PostList: React.FC<PostListInterface> = ({ pageData }) => {
 
     return (
         <Container>
-            <Box sx={{maxWidth: "70%", margin: "auto"}}>
+            <Box className="post-list-containr">
             <List sx={{ paddingTop: "0px" }}>
                 {pageData.subPages?.map((subPage, index) => {
                     const { name, promotion, expertise, date, title } = metadataJson[subPage.id];

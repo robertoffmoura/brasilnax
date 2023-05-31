@@ -9,7 +9,7 @@ interface AuthorListProps {
 
 const AuthorList: React.FC<AuthorListProps> = ({ authors }) => {
     return (
-        <Box className="side-panel" sx={{marginLeft: "15px"}}>
+        <Box className="side-panel author">
             {authors && (
                 <>
                     <Typography variant="h6" sx={{fontWeight: "bold", marginBottom: "10px"}}>Autor(es)</Typography>

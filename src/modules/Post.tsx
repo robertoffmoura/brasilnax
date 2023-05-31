@@ -17,8 +17,7 @@ const Post: React.FC<PostInterface> = ({ metadata, markdown }) => {
     const hasAny = name || promotion || expertise;
 
     return (
-        <Container sx={{ display: "flex" }}>
-            <SubPostList subPosts={subPostList}></SubPostList>
+        <Container className="post-container">
             <Box className="post-main-content">
                 {title && <Typography variant="h2">{title}</Typography>}
                 {date && <Typography variant="body2">{date}</Typography>}
@@ -43,12 +42,13 @@ const Post: React.FC<PostInterface> = ({ metadata, markdown }) => {
                                 </Typography>
                             )}
                         </Box>
-                        <Divider sx={{margin: "10px 0px"}} />
+                        <Divider sx={{ margin: "10px 0px" }} />
                     </>
                 )}
                 <MarkdownParser markdown={markdown} />
             </Box>
             <AuthorList authors={authors}></AuthorList>
+            <SubPostList subPosts={subPostList}></SubPostList>
         </Container>
     );
 };
