@@ -11,6 +11,10 @@ const RecursiveList = ({ pages, currentPath, openSubMenu, handleDrawerClose }: a
     const handleItemClick = (page: PagesProps, index: number) => {
         if (index === 0) {
             handleDrawerClose();
+            if (currentPath == "") {
+                router.push("/")
+                return;
+            }
             router.push(currentPath);
         } else if (page.showMenu !== false && page.subPages && page.subPages.length > 0) {
             openSubMenu(page, currentPath + page.path);
