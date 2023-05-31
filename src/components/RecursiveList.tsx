@@ -1,4 +1,6 @@
-import { List, ListItemButton, ListItemText } from "@mui/material";
+import List from "@mui/material/List";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import { useRouter } from "next/router";
 import { PagesProps } from "../misc/types";
